@@ -1,4 +1,8 @@
 # movieIndustryDashboard
 ## Simple Interactive Dashboard using plotly-dash With Bootstrap-5
 
-![Angular App uses this api to test and visualize !](/imgs/1.png)
+![!](/imgs/1.png)
+![!](/imgs/2.png)
+![!](/imgs/3.png)
+![!](/imgs/4.png)
+
