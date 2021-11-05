@@ -1,0 +1,162 @@
+/*
+    c1 = #0c8074
+    c2 = #2e3948
+    c3 = cb3701
+
+*/
+:root {
+    --green: #0c8074;
+    --dark_gray: #2e3948;
+    --orange: #cb3701;
+    --main_blue:#0077BB;
+    --font_family : 'serif';
+  }
+body {
+    font-family: serif;
+    background-color:#fbfbfb;
+}
+h2{
+    font-weight: 700;
+    text-align: left;
+    font-size: 28px;
+    font-family: serif;
+    margin-left:40px ;
+
+}
+h5{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+header{
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: serif;
+    color:#FFF ;
+}
+
+.card{
+    padding: 5px;
+    width: 160px;
+    margin-bottom: 10px;
+    color: #0077BB;
+    font-weight: 700;
+    border: 1px solid #e0e4f7;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 25px;
+    z-index: 100;
+    top:70px ;    
+}
+.posotion-card-1{
+    left: 10%;
+    color:var(--green) ;
+    
+}
+.posotion-card-2{
+   
+    left: 40%;
+    color:var(--dark_gray) ;
+
+}
+.posotion-card-3{
+    left: 75%;
+    color:var(--orange) ;
+
+}
+.container-fluid{
+    height: 100px;
+    padding: 10px;
+    background: #0077BB;
+    color: #FFF;
+    margin-bottom: 70px;
+
+}
+
+/* Tabs Css*/
+
+.custome-nav-item{
+    
+    font-size: 17px !important;
+    color: var(--dark_gray) !important;
+    font-weight: 800 !important;
+    font-family: var(--font_family) !important;
+  }
+
+  /*Tab 1 Style*/
+
+  .custome-col{
+    background: #FFF;
+    height: 70px;
+    margin: 10px 10px 0px 0px;
+    text-align: center;
+    width: 100%;
+    border: #f1f1f1 solid 1px;
+  }
+  
+  .row-custome{
+      margin:10px 0 10px 0;
+  }
+
+  .h5-custome{
+      margin-top: 3px;
+      color: var(--main_blue);
+      font-size: 20px;
+      font-family: var(--font_family);
+    }
+    .span-custome{
+        color: var(--orange);
+        font-weight: 700;
+  }
+
+  .slider-div{
+    margin: 20px 0 ;
+  }
+.mg-r{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.mg-l{
+    margin-left: 10px;
+    margin-top: 5px;
+    
+    /* border: 1px solid #e3eef5; */
+}
+.center-graph{
+    text-align: -webkit-right;
+    position: relative
+}
+
+
+.from-text , .to-text{
+    font-size: 22px;
+    color: #2e3948;
+    font-family: var(--font_family);
+
+    margin-right: 10px;
+}
+.from-date , .to-date{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--orange);
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.plot-title{
+    position: absolute;
+    z-index: 100;
+    top: 11px;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--green);
+}
+/* .plot-title_2{
+    position: absolute;
+    z-index: 100;
+    top: 11px;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--green);
+} */
